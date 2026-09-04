@@ -1,0 +1,72 @@
+name: Feature Request
+description: Suggest a new idea or improvement for Weboardies™
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### * Feature Request
+        Thank you for expressing your ideas to help improve **Weboardies™**!
+        > Note: you can also share your thoughts and chat directly with us on [Discord](https://discord.gg/k8VNYn4JZf) ...
+        Please fill out the form below to help us understand your request.
+        ---
+
+  - type: dropdown
+    id: website_area
+    attributes:
+      label: Affected Pages
+      description: What part of the website is your idea related to?
+      options:
+        - "Personal website • User pages"
+        - "Board Editor"
+        - "User Dashboard"
+        - "Homepage • Landing page"
+        - "Account & Data pages"
+        - "General • Entire website"
+        - "Other • Not sure"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or Motivation
+      description: Is this feature related to a specific limitation or user need?
+      placeholder: "e.g.,\nI'm always frustrated when ...\nIt would be much easier to ..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed Solution & Behavior
+      description: Describe your proposed feature, how it should look, and how it should behave.
+      placeholder: Please describe your thoughts in detail ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References or Mockups
+      description: Any visual sketches, screenshots, or examples you wish to share?
+      placeholder: Attach images or links if applicable ...
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission Checklist
+      options:
+        - label: "I have verified that this feature has not already been requested."
+          required: true
+        - label: "I confirm that this is a genuine, constructive suggestion and not spam or a test submission."
+          required: true
+        - label: "I confirm that no sensitive personal information is exposed in any attached images or text."
+          required: true
+        - label: "This idea aligns with the current corkboard-themed design of Weboardies™."
+          required: false
+        - label: "I ❤️ Weboardies™"
+          required: false

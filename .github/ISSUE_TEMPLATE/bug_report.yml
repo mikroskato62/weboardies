@@ -1,0 +1,109 @@
+name: Bug Report
+description: Report a bug or unexpected behavior on Weboardies™
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### * Bug Report
+        Thank you for reporting an issue to help improve **Weboardies™**!
+        > Note: for quick questions or real-time discussions, you are also welcome to join our [Discord Community](https://discord.gg/k8VNYn4JZf) ...
+        Please fill out the form below to help us identify and fix the issue.
+        ---
+
+  - type: input
+    id: affected_url
+    attributes:
+      label: Affected URL or Page
+      description: What page or board did the issue happen on?
+      placeholder: "e.g., https://www.weboardies.com/ or https://www.weboardies.com/username"
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of the Bug
+      description: A clear and concise description of what went wrong.
+      placeholder: Describe the problem...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction_steps
+    attributes:
+      label: Steps to Reproduce
+      description: Step-by-step instructions to reproduce the issue.
+      value: |
+        1. Navigate to '...'
+        2. Click on '...'
+        3. Notice '...'
+    validations:
+      required: false
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen instead?
+      placeholder: Describe what should have happened...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Operating System / Device
+      description: What device or OS were you using?
+      options:
+        - "Computer • Windows"
+        - "Computer • macOS"
+        - "Computer • Linux"
+        - "Mobile • Android"
+        - "Mobile • iOS"
+        - "Tablet • iPadOS"
+        - "Tablet • Android"
+        - "Other"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      description: What web browser were you using?
+      options:
+        - "Google Chrome"
+        - "Apple Safari"
+        - "Microsoft Edge"
+        - "Mozilla Firefox"
+        - "Samsung Internet"
+        - "Other"
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or Screen Recordings
+      description: Drag and drop images or videos here to help diagnose the issue.
+      placeholder: Attach screenshots or screen recordings...
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission Checklist
+      options:
+        - label: "I have verified that this issue has not already been reported."
+          required: true
+        - label: "I confirm that no sensitive personal information (e.g., passwords) is exposed in the above form."
+          required: true
+        - label: "I confirm that this is a genuine, constructive bug report and not spam or a test submission."
+          required: true
+        - label: "I have provided all relevant details, URLs, and reproduction steps."
+          required: false
+        - label: "I ❤️ Weboardies™"
+          required: false

@@ -1,0 +1,12 @@
+# GitHub Issue Chooser Configuration
+# Documentation: https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository
+
+blank_issues_enabled: false
+
+contact_links:
+  - name: Discord Community Server
+    url: https://discord.gg/k8VNYn4JZf
+    about: Join our official server for questions, live feedback, and community chat about Weboardies™
+  - name: Direct Inquiries (Email)
+    url: https://mail.google.com/mail/?view=cm&fs=1&to=weboardies@gmail.com
+    about: Reach out directly for private inquiries, partnership opportunities, or security questions regarding Weboardies™

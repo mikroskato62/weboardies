@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you reference this project showcase or architecture, please cite it as below."
+authors:
+  - family-names: "Petrakis"
+    given-names: "Rafail Ioannis"
+    alias: "mikroskato62"
+title: "Weboardies™"
+version: 1.0.0
+date-released: 2026-08-06
+url: "https://www.weboardies.com"
+repository-code: "https://github.com/mikroskato62/weboardies"
+abstract: "Weboardies™ is a full-stack website builder that lets anyone create, customize, and publish a personal website styled as an interactive corkboard."
+type: software
+keywords:
+  - "weboardies"
+  - "personal-website"
+  - "website-builder"
+license: "Proprietary"
+license-url: "https://www.weboardies.com/legal"
